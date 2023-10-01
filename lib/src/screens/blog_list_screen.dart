@@ -6,14 +6,14 @@ import 'package:sub_space/src/screens/blog_detail_screen.dart';
 import 'package:sub_space/src/services/blog_provider.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class BlogList extends StatefulWidget {
-  const BlogList({Key? key}) : super(key: key);
+class BlogListScreen extends StatefulWidget {
+  const BlogListScreen({Key? key}) : super(key: key);
 
   @override
-  State<BlogList> createState() => _BlogListState();
+  State<BlogListScreen> createState() => _BlogListScreenState();
 }
 
-class _BlogListState extends State<BlogList> {
+class _BlogListScreenState extends State<BlogListScreen> {
   @override
   void initState() {
     super.initState();
